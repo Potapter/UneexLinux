@@ -1,0 +1,46 @@
+# Czech translations for  08_I18n package.
+# Copyright (C) 2024 THE  08_I18n'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  08_I18n package.
+# Automatically generated, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  08_I18n\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-14 19:48+0300\n"
+"PO-Revision-Date: 2024-11-14 19:30+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../src/prog.c:12
+#, c-format
+msgid "Enter digit from 1 to 100\n"
+msgstr "Введите число от 1 до 100\n"
+
+#: ../src/prog.c:21
+#, c-format
+msgid "Is the guessed digit greater then %d?\n"
+msgstr "Загаданное число больше, чем %d?\n"
+
+#: ../src/prog.c:23
+msgid "y"
+msgstr "д"
+
+#: ../src/prog.c:30
+msgid "n"
+msgstr "н"
+
+#: ../src/prog.c:36
+#, c-format
+msgid "Type 'y' or 'n'\n"
+msgstr "Введите 'д' или 'n'"
+
+#: ../src/prog.c:39
+#, c-format
+msgid "You guessed %d!\n"
+msgstr "Вы загадали %d!\n"
