@@ -1,0 +1,14 @@
+--- maze.c	2024-11-15 13:17:04.961815037 +0300
++++ maze_2.c	2024-11-15 13:21:32.789958281 +0300
+@@ -4,9 +4,9 @@
+ #include <time.h>
+ 
+ int main(int argc, char *argv[]) {
+-    int maze_size = 6;
++    int maze_size = atoi(argv[2]);
+ 
+-    char pass = '.', wall = '#';
++    char pass = argv[1][0], wall = argv[1][1];
+ 
+     int seed = time(NULL);
+     srand(seed);

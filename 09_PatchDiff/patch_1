@@ -1,0 +1,10 @@
+--- maze.c	2024-11-15 13:17:04.961815037 +0300
++++ maze_1.c	2024-11-15 13:22:35.477845739 +0300
+@@ -4,7 +4,7 @@
+ #include <time.h>
+ 
+ int main(int argc, char *argv[]) {
+-    int maze_size = 6;
++    int maze_size = atoi(argv[1]);
+ 
+     char pass = '.', wall = '#';
