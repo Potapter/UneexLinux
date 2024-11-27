@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <potapter@mail.ru>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-26 21:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/prog.c:69
+#, c-format
+msgid ""
+"Usage ./prog [OPTION]\n"
+"Where OPTION could be\n"
+"   [] to run program\n"
+"   [-r] to run program with roman numbers\n"
+"   [--help] to open help page\n"
+msgstr "Использование ./prog [ОПИЦЯ]\n"
+"Где ОПЦИЯ может быть из\n"
+"   [] для запуска программы\n"
+"   [-r] для запуска программы с римскими числами"
+"   [--help] для открытия страницы помощи"
+
+#: src/prog.c:80
+#, c-format
+msgid "Enter digit from 1 to 100\n"
+msgstr "Введите число от 1 до 100\n"
+
+#: src/prog.c:83
+#, c-format
+msgid "Enter digit from I to C\n"
+msgstr "Введите число от I до C\n"
+
+#: src/prog.c:90
+#, c-format
+msgid "From 1 to 100!!!\n"
+msgstr "От 1 до 100!!!\n"
+
+#: src/prog.c:92
+#, c-format
+msgid "From I to C!!!\n"
+msgstr "От I до C!!!\n"
+
+#: src/prog.c:98
+#, c-format
+msgid "Is the guessed digit greater then %d?\n"
+msgstr "Загаданное число больше чем %d\n?"
+
+#: src/prog.c:100
+#, c-format
+msgid "Is the guessed digit greater then %s?\n"
+msgstr "Загаданное число больше чем %s\n?"
+
+#: src/prog.c:103
+msgid "y"
+msgstr "д"
+
+#: src/prog.c:110
+msgid "n"
+msgstr "н"
+
+#: src/prog.c:116
+#, c-format
+msgid "Type 'y' or 'n'\n"
+msgstr "Введите 'д' или 'н'\n"
+
+#: src/prog.c:120
+#, c-format
+msgid "You guessed %d!\n"
+msgstr "Вы загадали %d!\n"
+
+#: src/prog.c:122
+#, c-format
+msgid "You guessed %s!\n"
+msgstr "Вы загадали %s!\n"
